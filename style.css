@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #98CCD3;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #132238;
+    align-self: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+a:hover {
+    color: #6998AB;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    color: #132238;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+
+/* Introduction */
+
+.introduction {
+    background-color: #EBF0F6;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px 0;
+}
+
+.julia-img {
+    height: 515px;
+    padding: 30px;
+}
+
+.intro {
+    flex: 300px;
+}
+
+.name {
+    font-family: 'Courgette', cursive;
+    color: #364E68;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.description {
+    padding: 15px 50px 30px;
+}
+
+
+/* Education */
+
+.education {
+    background-color: #EBF0F6;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.studies {
+    flex: 200;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.study-img {
+    height: 350px;
+}
+
+
+/* Experience */
+
+.experience {
+    background-color: #F3F9FB;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.work {
+    flex: 200;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.work-img {
+    height: 350px;
+}
+
+
+/* Projects an Hobbies */
+
+.project-hobbies {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.projects {
+    background-color: #F3F9FB;
+    flex: 200;
+    text-align: center;
+    padding: 40px 20px 30px;
+}
+
+.artistic-img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.hobbies {
+    background-color: #EBF0F6;
+    flex: 200;
+    text-align: center;
+    padding: 40px 20px 30px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #98CCD3;
+    text-align: center;
+    line-height: 2.5;
+    padding: 30px 0 20px;
+}
+
+.footer a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.footer a:hover {
+    color: darkgray;
+}
+
+.copyright {
+    color: dimgray;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        justify-content: center;
+    }
+    .julia-img {
+        width: 85%;
+        height: auto;
+    }
+    .study-img {
+        width: 100%;
+        height: auto;
+    }
+    .work-img {
+        width: 100%;
+        height: auto;
+    }
+    .artistic-img {
+        width: 100%;
+        height: auto;
+    }
+}
